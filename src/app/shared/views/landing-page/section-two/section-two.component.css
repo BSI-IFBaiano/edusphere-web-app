@@ -1,0 +1,61 @@
+.button {
+    display: flex;
+    width: 150px;
+    height: 40px;
+    padding: 12px 8px;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    flex-shrink: 0;
+    border-radius: 20px;
+    background: #26A653;
+    border: none;
+    color: white;
+    cursor: pointer;
+    font-family: 'Inter-Bold';
+}
+
+/* Seção 2 */
+.section-two-container {
+
+    margin-top: 100px;
+    margin-bottom: 100px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 40px;
+    padding: 0 10%;
+    background-color: #FFF;
+}
+
+.section-two-content {
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+    max-width: 550px;
+}
+
+.section-two-content h1 {
+    font-family: 'Inter-Black';
+    font-size: 36px;
+    color: #292929;
+}
+
+.section-two-content p {
+    font-family: 'Inter-Light';
+    margin-top: 10px;
+    font-size: 20px;
+    color: #292929;
+}
+
+.section-two-content button {
+    margin-top: 60px;
+    width: 200px;
+}
+
+.section-two-content-photo {
+    width: 70%;
+    height: auto;
+    margin: 20px 0px 100px 0px;
+}
