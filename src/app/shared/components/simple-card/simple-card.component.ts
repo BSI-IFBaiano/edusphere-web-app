@@ -2,7 +2,6 @@ import { Component, Input } from '@angular/core';
 import { NgModule } from '@angular/core';
 import { CommonModule } from '@angular/common';
 
-import CardInterface from '../../interfaces/card-interface';
 @Component({
   selector: 'app-simple-card',
   standalone: true,

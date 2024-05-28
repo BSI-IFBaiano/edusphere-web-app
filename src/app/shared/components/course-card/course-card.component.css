@@ -42,3 +42,8 @@
     font-weight: 700;
     line-height: normal;
 }
+
+.course-container img {
+    max-width: 325px;
+    max-height: 240px;
+}
