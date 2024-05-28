@@ -157,3 +157,38 @@ a {
     height: auto;
     margin: 20px 0px 100px 0px;
 }
+
+/* Seção 3 */
+
+.section-three-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    padding: 0 10%;
+    background-color: #ffffff;
+}
+
+.section-three-container h1 {
+    max-width: 1000px;
+    margin-top: 100px;
+    font-family: 'Inter-Black';
+    font-size: 36px;
+    color: #292929;
+}
+
+.span-green-color {
+    color: #26A653;
+}
+
+.simple-card-container {
+    margin-top: 100px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 70px;
+    padding: 0 10%;
+    background-color: #ffffff;
+}
