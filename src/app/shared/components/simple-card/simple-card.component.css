@@ -1,0 +1,59 @@
+@font-face {
+    font-family: 'Inter-SemiBold';
+    src: url('../../../../assets/fonts/Inter-SemiBold.ttf');
+}
+
+@font-face {
+    font-family: 'Inter-Light';
+    src: url('../../../../assets/fonts/Inter-Light.ttf');
+}
+
+.simple-card {
+    width: 350px;
+    height: 530px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    border-radius: 50px;
+    border: 1px solid #949494;
+    background: rgba(148, 148, 148, 0.00);
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.50);
+    gap: 40px;
+    padding: 40px;
+}
+
+.simple-card-header {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 40px;
+
+}
+
+.simple-card h2 {
+    color: #292929;
+    text-align: center;
+    font-family: 'Inter-SemiBold';
+    font-size: 36px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+}
+
+.simple-card-content {
+    color: #292929;
+    text-align: center;
+    font-family: 'Inter-Light';
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: normal;
+    max-width: 270px;
+}
+
+.simple-card-content img {
+    max-width: 100px;
+    max-height: 100px;
+    border-radius: 50px;
+}

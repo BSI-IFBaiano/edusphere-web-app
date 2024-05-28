@@ -16,7 +16,7 @@ jobs:
       - name: Instalar Node.js
         uses: actions/setup-node@v3  # Atualize para a versão mais recente
         with:
-          node-version: 20  # Use a versão 20 do Node.js
+          node-version: '20'  # Use a versão 20 do Node.js
 
       - name: Instalar dependências
         run: npm install
@@ -25,6 +25,6 @@ jobs:
         run: npm run lint
 
       - name: Exibir erros de sintaxe
-        if: ${{ failure() }}
+        if: failure()
         run: echo "Erros de sintaxe encontrados!"
 

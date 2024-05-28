@@ -1,25 +1,65 @@
 <header>
 
-    <nav class="header-nav">
-
-        <img src="../../../../../assets/images/logo.svg" alt="logo">
-        <div class="header-nav-group">
-            <a routerLink="/home" routerLinkActive="active">Home</a>
-            <a routerLink="/Sobre Nós" routerLinkActive="active">Sobre Nós</a>
-            <a routerLink="/Cursos" routerLinkActive="active">Cursos</a>
-            <a routerLink="/Professores" routerLinkActive="active">Professores</a>
-            <a routerLink="/Contato" routerLinkActive="active">Contato</a>
-        </div>
-        <button class="button" [title]="{title}">Login</button>
-    </nav>
-
-    <div class="section-one-container">
-        <div class="section-one-content">
-            <h1>EduSphere: Transforme a gestão da Escola</h1>
-            <p>Uma plataforma inovadora para uma educação de excelência na Escola</p>
-            <button class="button">Conheça o Edu</button>
-        </div>
-        <img class="section-one-content-photo" src="../../../../../assets/images/notebook-section-one.svg" alt="foto de notebook">
-    </div>
-    
+    <app-header/>
 </header>
+    <main>
+        <app-section-one/>
+        <app-section-two/>
+        <app-section-three/>
+        <div class="section-four-container">
+            <h1><span class="span-green-color">Descubra um universo de possibilidades de aprendizagem</span> com o
+                EduSphere!</h1>
+            <div class="course-card-container">
+                <div class="course-card-container-line">
+                    <app-course-card type="Ebook" title="Como escolher um sistema de gestão escolar?" />
+                    <app-course-card type="Ebook" title="Como escolher um sistema de gestão escolar?" />
+                    <app-course-card type="Curso" title="Como escolher um sistema de gestão escolar?" />
+                </div>
+                <div class="course-card-container-line">
+                    <app-course-card type="Curso" title="Como escolher um sistema de gestão escolar?" />
+                    <app-course-card type="Curso" title="Educação Especial" />
+                    <app-course-card type="Ebook" title="Educação Profissional" />
+                </div>
+            </div>
+        </div>
+        <div class="section-five-container">
+            <h1><span class="span-green-color">Descubra o que nossos alunos, professores e gestores</span> dizem sobre o
+                EduSphere</h1>
+            <div class="feedback-container">
+                <div class="feedback-container-row">
+                    <app-feedback-card image="../../../../../assets/images/image-one-feedback.png"
+                        feedback="O EduSphere transformou completamente a gestão da nossa escola.
+                     A plataforma é completa, fácil de usar e nos proporciona uma visão completa do desempenho dos nossos alunos.
+                    Com o EduSphere, conseguimos tomar decisões mais estratégicas e melhorar significativamente a qualidade do ensino." name="Bruno Silva" job="Diretor" company="Escola ABC" />
+                    <app-feedback-card image="../../../../../assets/images/image-two-feedback.png" feedback="O EduSphere transformou completamente a gestão da nossa escola.
+                    A plataforma é completa,
+                    fácil de usar e nos proporciona uma visão completa do desempenho dos nossos alunos." name="Lucas Oliveira"
+                        job="Coordenador" company="IFbaiano" />
+                </div>
+                <div class="feedback-container-row">
+                    <app-feedback-card image="../../../../../assets/images/image-three-feedback.png" feedback="O EduSphere transformou completamente a gestão da nossa escola.
+                    A plataforma é completa, fácil de usar e nos proporciona uma visão completa do desempenho dos nossos alunos."
+                        name="Gabriel Oliveira" job="Professor" company="Modelo" />
+        
+                    <app-feedback-card image="../../../../../assets/images/image-four-feedback.png" feedback="O EduSphere transformou completamente a gestão da nossa escola.
+                    A plataforma é completa, fácil de usar e nos proporciona uma visão completa do desempenho dos nossos alunos."
+                        name="Arthur" job="Professor" company="Modelo" />
+                </div>
+            </div>
+        </div>
+        <div class="section-six-container-general">
+            <div class="section-six-container">
+                <div class="section-six-content">
+                    <h1 class="section-six-content-tittle">Agende Uma Demonstração Gratuita!</h1>
+                    <h2>
+                        Venha fazer parte da nossa comunidade e comprove a diferença<span class="span-green-color"> que o EduSphere pode fazer na sua vida!</span>
+                    </h2>
+                    <button class="button">Entre em Contato</button>
+                </div>
+                <img src="../../../../../assets/images/man-happy.svg" alt="Homem Feliz Usando Nosso Sistema">
+            </div>
+        </div>
+    </main>
+
+<app-footer/>
+

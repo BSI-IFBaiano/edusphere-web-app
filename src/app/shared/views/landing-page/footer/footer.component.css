@@ -1,0 +1,73 @@
+/* Seção 7 */
+/* Estilo geral do rodapé */
+.footer {
+    font-family: 'Inter-Light';
+    background-color: #2C3F47;
+    color: #fff;
+    padding: 20px 0;
+    text-align: center;
+  }
+  
+  /* Container do conteúdo do rodapé */
+  .footer-container {
+    padding: 20px 0;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    max-width: 1200px;
+    margin: 0 auto;
+  }
+  
+  /* Seções do rodapé */
+  .footer-section {
+    flex: 1;
+    margin: 0 20px;
+  }
+  
+  /* Títulos das seções */
+  .footer-section h3 {
+    font-size: 20px;
+    margin-bottom: 15px;
+  }
+  
+  /* Listas de links */
+  .footer-section ul {
+    list-style: none;
+    padding: 0;
+  }
+  
+  .footer-section li {
+    margin-bottom: 10px;
+  }
+  
+  .footer-section a {
+    color: #fff;
+    text-decoration: none;
+    transition: color 0.3s ease;
+  }
+  
+  .footer-section a:hover {
+    color: #ccc;
+  }
+  
+  /* Ícones das redes sociais */
+  .footer-section .fab {
+    font-size: 20px;
+    margin-right: 5px;
+  }
+  
+  /* Informações de contato */
+  .footer-contact {
+    text-align: left;
+  }
+  
+  .footer-contact p {
+    margin-bottom: 5px;
+  }
+  
+  /* Copyright e desenvolvedor */
+  .footer-copyright {
+    margin-top: 20px;
+    font-size: 12px;
+  }
+  

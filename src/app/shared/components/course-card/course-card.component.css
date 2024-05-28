@@ -1,0 +1,49 @@
+@font-face {
+    font-family: 'Inter-Bold';
+    src: url('../../../../assets/fonts/Inter-Bold.ttf');
+}
+
+@font-face {
+    font-family: 'Inter-Light';
+    src: url('../../../../assets/fonts/Inter-Light.ttf');
+}
+
+.course-container {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    padding: 20px 20px;
+    border-radius: 10px;
+    background-color: #ffffff;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    cursor: pointer;
+    max-width: 350px;
+    max-height: 350px;
+}
+
+.course-container:hover {
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 1);
+}
+
+.course-container h4 {
+    color: #292929;
+    font-family: 'Inter-Light';
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: normal;
+}
+
+.course-container h2 {
+    color: #292929;
+    font-family: 'Inter-Bold';
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+
+.course-container img {
+    max-width: 325px;
+    max-height: 240px;
+}

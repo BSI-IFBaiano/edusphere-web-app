@@ -1,0 +1,14 @@
+<div>
+    <div class="simple-card">
+        <div class="simple-card-header">
+            <img *ngIf="image; else defaultImage" [src]="image" alt="">
+            <ng-template #defaultImage>
+                <img src="../../../../assets/images/ellipse.svg" alt="ellipse">
+            </ng-template>
+            <h2>{{ title }}</h2>
+        </div>
+        <div class="simple-card-content">
+            {{ description }}
+        </div>
+    </div>
+</div>
