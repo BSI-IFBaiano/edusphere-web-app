@@ -27,3 +27,4 @@ jobs:
       - name: Exibir erros de sintaxe
         if: failure()
         run: echo "Erros de sintaxe encontrados!"
+
