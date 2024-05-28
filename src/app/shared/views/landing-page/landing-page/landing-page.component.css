@@ -276,3 +276,62 @@ a {
     gap: 70px;
     padding: 0 10%;
 }
+
+/* <div class="section-six-container">
+        <div class="section-six-content">
+            <h1 class="section-six-content-tittle">Agende Uma Demonstração Gratuita!</h1>
+            <h2>
+                Venha fazer parte da nossa comunidade e comprove a diferença<span class="span-green-color"> que o EduSphere pode fazer na sua vida!</span>
+            </h2>
+            <button class="button">Entre em Contato</button>
+        </div>
+
+        <img src="../../../../../assets/images/man-happy.svg" alt="Homem Feliz Usando Nosso Sistema">
+    </div>
+ */
+/* Seção 6 */
+
+.section-six-container {
+
+    margin: 100px 0px 100px 0px;
+    padding: 10%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 80px;
+    padding: 0 10%;
+    background-color: #292929;
+}
+
+.section-six-content-tittle {
+    font-family: 'Inter-Black';
+    font-size: 30px;
+    color: #FFF;
+}
+
+.section-six-content h2 {
+    font-family: 'Inter-Light';
+    font-size: 20px;
+    color: #FFF;
+    max-width: 400px;
+}
+
+.section-six-content {
+    margin-top: 100px;
+    display: flex;
+    flex-direction: column;
+    gap: 80px;
+
+}
+
+.section-six-content button {
+    margin-top: 60px;
+    width: 200px;
+}
+
+.section-six-container img {
+
+    margin-top: 100px;
+    margin-bottom: 100px;
+}
