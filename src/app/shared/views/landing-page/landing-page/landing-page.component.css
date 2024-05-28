@@ -161,6 +161,7 @@ a {
 /* Seção 3 */
 
 .section-three-container {
+    margin-bottom: 100px;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -191,4 +192,61 @@ a {
     gap: 70px;
     padding: 0 10%;
     background-color: #ffffff;
+}
+
+/* Seção 4 */
+
+.section-four-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    padding: 0 10%;
+    background-color: #3F3D56;
+}
+
+.section-four-container h1 {
+    max-width: 1000px;
+    margin-top: 100px;
+    font-family: 'Inter-Black';
+    font-size: 36px;
+    color: #FFF;
+    text-align: center;
+}
+
+/* <div class="section-four-container">
+        <h1><span class="span-green-color">Descubra um universo de possibilidades de aprendizagem</span> com o EduSphere!</h1>
+        <div class="course-card-container">
+            <app-course-card type="Educação Infantil" title="Educação Infantil" />
+            <app-course-card type="Ensino Fundamental" title="Ensino Fundamental"/>
+            <app-course-card type="Ensino Médio" title="Ensino Médio" />
+            <app-course-card type="Educação de Jovens e Adultos" title="Educação de Jovens e Adultos"/>
+            <app-course-card type="Educação Especial" title="Educação Especial" />
+            <app-course-card type="Educação Profissional" title="Educação Profissional" />
+        </div>
+    </div> 
+    
+    vamos colocar esses e duas rows de 3 cards cada, com o mesmo estilo do card que já temos
+    
+    */
+
+.course-card-container {
+    margin-top: 100px;
+    margin-bottom: 100px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 70px;
+    padding: 0 10%;
+}
+
+.course-card-container-line {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 70px;
+    padding: 0 10%;
 }

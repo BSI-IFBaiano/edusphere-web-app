@@ -1,0 +1,14 @@
+<div class="course-container">
+    <img *ngIf="image; else defaultImage" [src]="image" alt="">
+    <ng-template #defaultImage>
+        <img src="../../../../assets/images/course-image.svg" alt="ellipse">
+    </ng-template>
+
+    <h4>
+        {{ type }}
+    </h4>
+    <h2>
+        {{ title }}
+    </h2>
+
+</div>
