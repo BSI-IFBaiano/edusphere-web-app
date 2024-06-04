@@ -1,10 +1,17 @@
 import { mergeApplicationConfig, ApplicationConfig } from '@angular/core';
 import { provideServerRendering } from '@angular/platform-server';
 import { appConfig } from './app.config';
+import { provideHttpClient, withFetch } from '@angular/common/http';
+import { ToastrModule } from 'ngx-toastr';
+import { CommonModule } from '@angular/common';
 
 const serverConfig: ApplicationConfig = {
   providers: [
-    provideServerRendering()
+    provideServerRendering(),
+    provideHttpClient(
+      withFetch(),
+    ),
+    ToastrModule,
   ]
 };
 
