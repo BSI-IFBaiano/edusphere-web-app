@@ -28,6 +28,10 @@
     src: url('../../../../../assets/fonts/Inter-Light.ttf');
 }
 
+*{
+    text-decoration: none;
+    color: #ffffff;
+}
 
 a {
     cursor: pointer;
